@@ -1,0 +1,45 @@
+{
+    "name": "sanity-plugin-hashtags",
+    "version": "1.0.0",
+    "description": "Sanity plugin providing a validated hashtags field with strict rules.",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "license": "MIT",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "prepare": "tsc",
+        "format": "prettier --write ."
+    },
+    "keywords": [
+        "sanity",
+        "hashtags",
+        "validation",
+        "sanity-plugin"
+    ],
+    "author": {
+        "name": "Sikandar",
+        "email": "sikandar.moyal.dev@gmail.com",
+        "url": "https://www.github.com/sikandarmoyaldev"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sikandarmoyaldev/sanity-plugin-hashtags.git"
+    },
+    "bugs": {
+        "url": "https://github.com/sikandarmoyaldev/sanity-plugin-hashtags/issues"
+    },
+    "homepage": "https://github.com/sikandarmoyaldev/sanity-plugin-hashtags#readme",
+    "dependencies": {
+        "sanity": "^3.30.0"
+    },
+    "devDependencies": {
+        "typescript": "^5.5.0",
+        "prettier": "^3.3.3"
+    },
+    "peerDependencies": {
+        "sanity": "^3.30.0"
+    }
+}
